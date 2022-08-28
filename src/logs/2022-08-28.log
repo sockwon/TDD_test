@@ -1,0 +1,37 @@
+2022-08-28 12:26:13 info: listening on PORT : 3003
+2022-08-28 12:26:38 info: GET /ping
+2022-08-28 12:30:21 info: listening on PORT : 3003
+2022-08-28 12:30:21 info: DB init
+2022-08-28 12:31:03 info: listening on PORT : 3003
+2022-08-28 12:31:03 info: DB init
+2022-08-28 12:31:21 info: listening on PORT : 3003
+2022-08-28 12:31:21 info: DB init
+2022-08-28 12:31:45 info: listening on PORT : 3003
+2022-08-28 12:31:45 info: DB init
+2022-08-28 12:32:08 info: listening on PORT : 3003
+2022-08-28 12:32:08 info: DB init
+2022-08-28 12:32:19 info: listening on PORT : 3003
+2022-08-28 12:32:19 info: DB init
+2022-08-28 12:32:49 info: GET /ping
+2022-08-28 12:33:49 info: listening on PORT : 3003
+2022-08-28 12:33:49 info: DB init
+2022-08-28 12:33:52 info: listening on PORT : 3003
+2022-08-28 12:33:52 info: DB init
+2022-08-28 12:34:23 info: listening on PORT : 3003
+2022-08-28 12:34:23 info: DB init
+2022-08-28 12:35:05 info: listening on PORT : 3003
+2022-08-28 12:35:05 info: DB init
+2022-08-28 12:35:22 info: GET /ping
+2022-08-28 12:35:22 info: POST / signup
+2022-08-28 12:36:58 info: listening on PORT : 3003
+2022-08-28 12:36:58 info: DB init
+2022-08-28 12:37:01 info: GET /ping
+2022-08-28 12:37:01 info: POST / signup
+2022-08-28 12:37:32 info: listening on PORT : 3003
+2022-08-28 12:37:32 info: DB init
+2022-08-28 12:37:44 info: GET /ping
+2022-08-28 12:37:44 error: POST / signup
+2022-08-28 12:51:59 info: listening on PORT : 3003
+2022-08-28 12:51:59 info: DB init
+2022-08-28 12:52:07 info: GET /ping
+2022-08-28 12:52:07 error: POST / signup
