@@ -1,4 +1,5 @@
 const { DataSource } = require("typeorm");
+const {logger}  = require("../logs/config/winston");
 
 const appDataSource = new DataSource({
     type: process.env.TYPEORM_CONNECTION,
@@ -11,10 +12,10 @@ const appDataSource = new DataSource({
 
 appDataSource.initialize()
 .then(()=>{
-    console.log("datasource has been init!")
+    logger.info("DB init")
 })
 .catch((err)=>{
-    console.log("error ocurred during initializing datasource", err);
+    logger.error("DB connect failed")
     appDataSource.destroy();
 });
 

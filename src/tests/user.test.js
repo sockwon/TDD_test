@@ -4,9 +4,9 @@
 const request = require("supertest");
 
 // supertest의 request에 app을 담아 활용하기 위해 createApp 함수를 불러옵니다.
-const { createApp } = require("../app");
+const { createApp } = require("/Users/lsw4u/Desktop/CODE/TDD_wecode_test/app.js");
 // DB와의 커넥션을 위해 DataSource 객체를 불러옵니다.
-const { appDataSource } = require("../src/models/data-source");
+const { appDataSource } = require("../models/dataSource");
 
 describe("Sign Up", () => {
   let app;
@@ -29,7 +29,7 @@ describe("Sign Up", () => {
     // supertest의 request를 활용하여 app에 테스트용 request를 보냅니다.
     await request(app)
       .post("/users/signup") // HTTP Method, 엔드포인트 주소를 작성합니다.
-      .send({ email: "wrongEmail", password: "password001@" }) // body를 작성합니다.
+      .send({ email: "", password: "password001@" }) // body를 작성합니다.
       .expect(400) // expect()로 예상되는 statusCode, response를 넣어 테스트할 수 있습니다.
       .expect({ message: "invalid email!" });
   });
